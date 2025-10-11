@@ -1,70 +1,209 @@
-# Getting Started with Create React App
+# デジタルアーカイブマップ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+QGISスタイルのインターフェースを持つ、デジタルアーカイブ管理Webアプリケーション
 
-## Available Scripts
+## 🏗️ プロジェクト構造
 
-In the project directory, you can run:
+```
+src/
+├── components/              # UIコンポーネント
+│   ├── Header/             # ヘッダー関連
+│   │   ├── Header.jsx      # ヘッダーコンポーネント
+│   │   └── Header.css      # ヘッダースタイル
+│   ├── Footer/             # フッター関連
+│   │   ├── Footer.jsx      # フッターコンポーネント
+│   │   └── Footer.css      # フッタースタイル
+│   ├── Map/                # 地図関連
+│   │   ├── MapView.jsx     # 地図表示コンポーネント
+│   │   ├── MapClickHandler.jsx  # 地図クリックハンドラ
+│   │   ├── CustomMarker.jsx     # カスタムマーカー
+│   │   └── Map.css         # 地図スタイル
+│   └── Sidebar/            # サイドバー関連
+│       ├── Sidebar.jsx     # サイドバー統合コンポーネント
+│       ├── ArchiveList.jsx # アーカイブリスト
+│       ├── ArchiveItem.jsx # アーカイブリストアイテム
+│       ├── ArchiveForm.jsx # アーカイブフォーム
+│       ├── Sidebar.css     # サイドバースタイル
+│       └── ArchiveForm.css # フォームスタイル
+├── hooks/                  # カスタムフック
+│   └── useArchives.js     # アーカイブ管理フック
+├── services/              # ビジネスロジック
+│   └── archiveService.js  # データ管理サービス
+├── utils/                 # ユーティリティ
+│   └── mapIcons.js       # マーカーアイコン定義
+├── locales/              # 多言語対応
+│   └── i18n.js          # 翻訳設定
+├── App.jsx              # メインアプリケーション
+├── App.css              # メインスタイル
+└── index.js             # エントリーポイント
+```
 
-### `npm start`
+## 📦 各ファイルの役割
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Components（コンポーネント層）
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Header/
+- **Header.jsx**: アプリケーションのヘッダー、言語切り替えボタンを含む
+- **Header.css**: ヘッダーのスタイル定義
 
-### `npm test`
+#### Footer/
+- **Footer.jsx**: フッター、問い合わせ先と著作権情報を表示
+- **Footer.css**: フッターのスタイル定義
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Map/
+- **MapView.jsx**: 地図の表示と統合管理
+- **MapClickHandler.jsx**: 地図クリックイベントのハンドリング
+- **CustomMarker.jsx**: アーカイブポイントを表示するマーカー
+- **Map.css**: 地図関連のスタイル定義
 
-### `npm run build`
+#### Sidebar/
+- **Sidebar.jsx**: サイドバーの統合コンポーネント
+- **ArchiveList.jsx**: アーカイブのリスト表示
+- **ArchiveItem.jsx**: 個別のアーカイブアイテム
+- **ArchiveForm.jsx**: アーカイブ追加フォーム
+- **Sidebar.css**: サイドバーのスタイル
+- **ArchiveForm.css**: フォームのスタイル
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Hooks（カスタムフック層）
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **useArchives.js**: アーカイブデータの状態管理と操作を提供するカスタムフック
+  - データの取得、追加、更新、削除
+  - LocalStorageとの自動同期
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Services（サービス層）
 
-### `npm run eject`
+- **archiveService.js**: データ管理のビジネスロジック
+  - データの永続化（LocalStorage）
+  - データの検証
+  - インポート/エクスポート機能
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Utils（ユーティリティ層）
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **mapIcons.js**: Leafletマーカーアイコンの定義
+  - データタイプごとのカラーアイコン
+  - アイコン取得関数
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Locales（多言語化層）
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **i18n.js**: i18next設定、日本語・英語の翻訳リソース
 
-## Learn More
+## 🚀 セットアップ
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# プロジェクト作成
+npx create-react-app digital-archive-map
+cd digital-archive-map
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 依存パッケージのインストール
+npm install react-leaflet leaflet i18next react-i18next --legacy-peer-deps
+npm install --save-dev gh-pages --legacy-peer-deps
+```
 
-### Code Splitting
+## 📝 package.json設定
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```json
+{
+  "homepage": "https://yourusername.github.io/digital-archive-map",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+```
 
-### Analyzing the Bundle Size
+## 🎯 主な機能
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 1. 地図インタラクション
+- OpenStreetMapベースの地図表示
+- 地図クリックでポイント追加
+- マーカークリックで詳細表示
 
-### Making a Progressive Web App
+### 2. データ管理
+- アーカイブの追加、削除
+- LocalStorageへの自動保存
+- データのバリデーション
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 3. 多言語対応
+- 日本語・英語の切り替え
+- i18nextによる翻訳管理
 
-### Advanced Configuration
+### 4. データタイプ
+- 3D Scan（青）
+- Photo（緑）
+- Video（赤）
+- Document（オレンジ）
+- Audio（紫）
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 5. フッター
+- プロジェクト情報
+- 問い合わせ先（メール、GitHub、ドキュメント）
+- リソースリンク（ユーザーガイド、FAQ、プライバシーポリシー、利用規約）
+- 著作権情報とバージョン表示
 
-### Deployment
+## 🛠️ 開発
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+# 開発サーバー起動
+npm start
 
-### `npm run build` fails to minify
+# ビルド
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# GitHub Pagesへデプロイ
+npm run deploy
+```
+
+## 🔧 拡張可能性
+
+### 容易に追加できる機能
+
+1. **バックエンド連携**
+   - `archiveService.js`を修正してAPI呼び出しに変更
+
+2. **データフィルタリング**
+   - `filterArchivesByType`関数を活用
+
+3. **エクスポート/インポート**
+   - `exportArchives`、`importArchives`関数を使用
+
+4. **3Dビューアー統合**
+   - 新しいコンポーネントを追加
+
+5. **画像アップロード**
+   - `ArchiveForm.jsx`にファイル入力を追加
+
+## 📱 レスポンシブ対応
+
+- デスクトップ: サイドバー + 地図の横並び
+- モバイル: サイドバーと地図の縦並び
+- タブレット: 自動調整
+
+## 🎨 デザインシステム
+
+### カラーパレット
+- Primary: #3498db（青）
+- Success: #27ae60（緑）
+- Danger: #e74c3c（赤）
+- Dark: #2c3e50
+- Light: #f5f6fa
+
+### タイポグラフィ
+- システムフォントスタック
+- モノスペースフォント（座標表示用）
+
+## 🔐 データの永続化
+
+現在はLocalStorageを使用。将来的には：
+- IndexedDB（大容量データ）
+- REST API（バックエンド連携）
+- Firebase（リアルタイム同期）
+
+## 📧 問い合わせ
+
+- Email: contact@archivemap.example.com
+- GitHub: https://github.com/yourusername/digital-archive-map
+- Documentation: https://docs.archivemap.example.com
+
+## 📄 ライセンス
+
+MIT License
