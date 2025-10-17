@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digitalArchivemap-icchy.github.io/static/css/main.9e855549.css",
+    "main.js": "/digitalArchivemap-icchy.github.io/static/js/main.61090899.js",
+    "index.html": "/digitalArchivemap-icchy.github.io/index.html",
+    "main.9e855549.css.map": "/digitalArchivemap-icchy.github.io/static/css/main.9e855549.css.map",
+    "main.61090899.js.map": "/digitalArchivemap-icchy.github.io/static/js/main.61090899.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e855549.css",
+    "static/js/main.61090899.js"
+  ]
+}
