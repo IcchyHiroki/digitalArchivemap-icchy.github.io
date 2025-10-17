@@ -2,8 +2,8 @@
  * JSONファイルからアーカイブデータを読み込むサービス
  */
 
-const ARCHIVES_INDEX_PATH = '/data/archives_index.json';
-const ARCHIVES_DATA_PATH = '/data/archives/';
+const ARCHIVES_INDEX_PATH = `${process.env.PUBLIC_URL}/data/archives/archives_index.json`;
+const ARCHIVES_DATA_PATH = `${process.env.PUBLIC_URL}/data/archives/`;
 
 /**
  * アーカイブインデックスを取得
