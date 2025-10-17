@@ -1,24 +1,17 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import ArchiveForm from './ArchiveForm';
 import ArchiveList from './ArchiveList';
 import './Sidebar.css';
 
 /**
- * サイドバーコンポーネント
- * ツールバー、フォーム、アーカイブリストを統合
+ * サイドバーコンポーネント（Web追加機能対応版）
+ * ツールバー、アーカイブリストを統合
  */
 const Sidebar = ({
   archives,
   selectedArchive,
   isAddMode,
-  showForm,
-  formData,
-  tempMarker,
   onToggleAddMode,
-  onFormChange,
-  onFormSubmit,
-  onFormCancel,
   onSelectArchive,
   onZoomToArchive,
   onDeleteArchive
@@ -40,14 +33,10 @@ const Sidebar = ({
         </div>
       </div>
 
-      {showForm && tempMarker && (
-        <ArchiveForm
-          formData={formData}
-          tempMarker={tempMarker}
-          onChange={onFormChange}
-          onSubmit={onFormSubmit}
-          onCancel={onFormCancel}
-        />
+      {isAddMode && (
+        <div className="add-mode-hint">
+          🖱️ {t('clickMapToAdd')}
+        </div>
       )}
 
       <ArchiveList

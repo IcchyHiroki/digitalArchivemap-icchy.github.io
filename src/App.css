@@ -24,6 +24,94 @@ body {
   overflow: hidden;
 }
 
+/* ローディング表示 */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f6fa;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #e1e4e8;
+  border-top-color: #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-container p {
+  margin-top: 1rem;
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+/* エラー表示 */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f6fa;
+  padding: 2rem;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.error-detail {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+
+.error-hint {
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #856404;
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+} 
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
