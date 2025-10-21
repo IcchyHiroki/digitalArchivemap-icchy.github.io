@@ -21,11 +21,16 @@ export const useJsonArchives = () => {
     setError(null);
     
     try {
+      console.log('🔄 Starting to load archives...');
       const data = await fetchAllArchives();
+      console.log('✅ Raw data loaded:', data);
+      
       const transformedData = transformArchivesForMap(data);
+      console.log('✅ Transformed data:', transformedData);
+      
       setArchives(transformedData);
     } catch (err) {
-      console.error('Failed to load archives:', err);
+      console.error('❌ Failed to load archives:', err);
       setError(err.message);
     } finally {
       setLoading(false);
