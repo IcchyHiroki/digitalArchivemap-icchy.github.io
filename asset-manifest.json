@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/digitalArchivemap-icchy.github.io/static/css/main.9e855549.css",
-    "main.js": "/digitalArchivemap-icchy.github.io/static/js/main.abf6009c.js",
+    "main.js": "/digitalArchivemap-icchy.github.io/static/js/main.40fc655a.js",
     "index.html": "/digitalArchivemap-icchy.github.io/index.html",
     "main.9e855549.css.map": "/digitalArchivemap-icchy.github.io/static/css/main.9e855549.css.map",
-    "main.abf6009c.js.map": "/digitalArchivemap-icchy.github.io/static/js/main.abf6009c.js.map"
+    "main.40fc655a.js.map": "/digitalArchivemap-icchy.github.io/static/js/main.40fc655a.js.map"
   },
   "entrypoints": [
     "static/css/main.9e855549.css",
-    "static/js/main.abf6009c.js"
+    "static/js/main.40fc655a.js"
   ]
 }
