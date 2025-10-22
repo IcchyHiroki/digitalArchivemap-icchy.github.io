@@ -1,0 +1,39 @@
+{
+  "id": "archive-1761122599545",
+  "name": {
+    "ja": "八雲神社",
+    "en": "Yakumo Shrine"
+  },
+  "description": {
+    "ja": "現在、調査中",
+    "en": "I survey now."
+  },
+  "address": {
+    "ja": "〒197-0003 東京都福生市熊川３１４",
+    "en": "314 Kumagawa, Fussa City, Tokyo, 〒197-0003"
+  },
+  "coordinates": {
+    "latitude": 35.72015812108016,
+    "longitude": 139.33240056037906
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://arrival.space/31116973_2097",
+      "description": {
+        "ja": "Arival Spaceでワールドを公開中",
+        "en": "Worlds are now available on Arival Space"
+      }
+    },
+    {
+      "type": "Video",
+      "url": "https://youtu.be/jSSH_JXVyEM",
+      "description": {
+        "ja": "PostshotとAfter Effectを用いて、3D Gaussian Splattingの映像",
+        "en": "3D Gaussian Splatting's video to use Postshot and After Effects"
+      }
+    }
+  ],
+  "lastUpdated": "2025-06-22"
+}

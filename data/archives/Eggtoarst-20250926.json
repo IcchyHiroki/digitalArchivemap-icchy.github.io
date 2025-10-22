@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761125494000",
+  "name": {
+    "ja": "エッグトーストのモーニングセット",
+    "en": "Morning Set of Egg Toast"
+  },
+  "description": {
+    "ja": "ホリーズカフェ四条室町店で食べたエッグトーストとコールドブリューコーヒー",
+    "en": "Egg toast and cold brew coffee I had at Holly's Cafe Shijo Muromachi Branch"
+  },
+  "address": {
+    "ja": "〒600-8492 京都府京都市下京区月鉾町６２ 住友生命京都ビル 1F",
+    "en": "Sumitomo Life Kyoto Building 1F 62 Tsukihokocho, Shimogyo Ward, Kyoto City, Kyoto Prefecture, 600-8492"
+  },
+  "coordinates": {
+    "latitude": 35.00382901482473,
+    "longitude": 135.75787425041202
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/4a82be54-b21f-4433-915e-308aaacb7e7c?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-09-26"
+}

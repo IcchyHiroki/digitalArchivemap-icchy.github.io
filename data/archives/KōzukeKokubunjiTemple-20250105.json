@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761126801586",
+  "name": {
+    "ja": "上野国分寺跡復元築垣",
+    "en": "Restoration of the Stone Walls at the Former Site of Kōzuke Kokubunji Temple"
+  },
+  "description": {
+    "ja": "奈良時代の上野国に創建された国分寺跡",
+    "en": "Site of the Kokubunji Temple founded in the Nara period in the province of Kōzuke"
+  },
+  "address": {
+    "ja": "〒370-3517 群馬県高崎市引間町２４７",
+    "en": "247 Hikimacho, Takasaki City, Gunma Prefecture. 370-3517"
+  },
+  "coordinates": {
+    "latitude": 36.39385376460302,
+    "longitude": 139.02225673198703
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/d55646e1-c1af-4093-bf0c-41a6e06da37a?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで構成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-01-04"
+}

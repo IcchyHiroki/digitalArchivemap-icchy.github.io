@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761127408512",
+  "name": {
+    "ja": "カレーライス",
+    "en": "CurryRice"
+  },
+  "description": {
+    "ja": "朝食メニュー",
+    "en": "The menu of breakfast"
+  },
+  "address": {
+    "ja": "〒436-0028 静岡県掛川市亀の甲１丁目５−２",
+    "en": "1-5-2 Kamenokō, Kakegawa City, Shizuoka Prefecture 436-0028"
+  },
+  "coordinates": {
+    "latitude": 34.76848451497797,
+    "longitude": 138.01400363445285
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/9eb517c3-1816-4635-a87e-d1623d42117a?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-02-16"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761127230408",
+  "name": {
+    "ja": "イマーシブ・フォート東京の中央モニュメント",
+    "en": "Central Monument at Immersive Fort Tokyo"
+  },
+  "description": {
+    "ja": "イマーシブ・フォート東京の中央に配置されたローマ風な建造物",
+    "en": "A Roman-style structure positioned at the center of Immersive Fort Tokyo"
+  },
+  "address": {
+    "ja": "〒135-0064 東京都江東区青海１丁目３−１５",
+    "en": "1-3-15 Aomi Koto-ku, Tokyo 135-0064"
+  },
+  "coordinates": {
+    "latitude": 35.625148402924346,
+    "longitude": 139.7802007198334
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/712d1635-1a67-408d-a8f0-0688011c99f1?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-02-22"
+}
