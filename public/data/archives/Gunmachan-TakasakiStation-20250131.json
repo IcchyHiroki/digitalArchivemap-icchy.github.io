@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761162959181",
+  "name": {
+    "ja": "ぐんまちゃん（高崎駅）",
+    "en": "Gunma-chan (Takaaki Station)"
+  },
+  "description": {
+    "ja": "高崎駅の新幹線改札内にあるぐんまちゃんとだるま。",
+    "en": "Gunma-chan and Daruma inside the Shinkansen ticket gate at Takasaki Station."
+  },
+  "address": {
+    "ja": "〒370-0849 群馬県高崎市栄町１−２５",
+    "en": "1-25 Sakae-cho, Takasaki City, Gunma Prefecture 370-0849"
+  },
+  "coordinates": {
+    "latitude": 36.32200986024092,
+    "longitude": 139.01289582252505
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/39145f38-e27e-4113-abab-495d818759a2?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで構成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-01-31"
+}

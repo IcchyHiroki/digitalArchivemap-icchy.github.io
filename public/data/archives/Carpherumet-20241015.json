@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761163596960",
+  "name": {
+    "ja": "広島東洋カープの歴代ヘルメット（カープギャラリー）",
+    "en": "Hiroshima Toyo Carp's Historical Helmets (Carp Gallery)"
+  },
+  "description": {
+    "ja": "広島東洋カープの歴代選手のヘルメットが配置されたモニュメント",
+    "en": "A monument displaying helmets of former Hiroshima Toyo Carp players"
+  },
+  "address": {
+    "ja": "〒732-0803 広島県広島市南区南蟹屋２丁目３−１",
+    "en": "2-3-1 Minami-Kaniya, Minami Ward, Hiroshima City, Hiroshima Prefecture 732-0803"
+  },
+  "coordinates": {
+    "latitude": 34.391890714772046,
+    "longitude": 132.48344957828525
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": " https://lumalabs.ai/embed/f17243b6-220a-418d-a561-e94e747cd0c3?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2024-10-15"
+}

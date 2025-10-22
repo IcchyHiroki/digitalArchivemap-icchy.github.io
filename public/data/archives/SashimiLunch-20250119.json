@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761162646977",
+  "name": {
+    "ja": "刺身定食",
+    "en": "Sashimi Meal Set"
+  },
+  "description": {
+    "ja": "「讃岐網元 あん」で食べた刺身定食",
+    "en": "Sashimi Meal Set at Sanuki Amimoto An"
+  },
+  "address": {
+    "ja": "〒760-0012 香川県高松市瀬戸内町３０−７５",
+    "en": "30-75 Setouchi-cho, Takamatsu City, Kagawa Prefecture 760-0012"
+  },
+  "coordinates": {
+    "latitude": 34.3489588187204,
+    "longitude": 134.0289491415024
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/92323c62-82b0-4169-acd7-632508988a23?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで構成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-01-19"
+}

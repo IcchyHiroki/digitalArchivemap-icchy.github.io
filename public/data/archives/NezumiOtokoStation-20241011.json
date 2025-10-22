@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761164840338",
+  "name": {
+    "ja": "ねずみ男駅",
+    "en": "NezumiOtokoStation"
+  },
+  "description": {
+    "ja": "JR境線はゲゲゲの鬼太郎に登場する妖怪名がついた別称がある。米子駅はねずみ男駅と呼ばれる。",
+    "en": "The JR Sakaiminato Line has alternative names derived from yokai featured in GeGeGe no Kitaro. Yonago Station is called Nezumi Otoko Station."
+  },
+  "address": {
+    "ja": "〒683-0036 鳥取県米子市弥生町２",
+    "en": "2 Yayoi-cho, Yonago City, Tottori Prefecture 683-0036 "
+  },
+  "coordinates": {
+    "latitude": 35.423612488951164,
+    "longitude": 133.3370089530945
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/ec61f623-48e3-4e53-bf91-8e7c4878ab2e?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2024-10-11"
+}

@@ -4,8 +4,22 @@
 
 // 読み込むアーカイブファイルのリスト（ここに追加するだけ！）
 const ARCHIVE_FILES = [
-  'tokyo_tower.json',
-  'osaka_castle.json'
+  'CurryRice-20250216.json',
+  'Eggtoarst-20250926.json',
+  'ImmersiveFortTokyo-20250222.json',
+  'KōzukeKokubunjiTemple-20250105.json',
+  'YakumoShrine-20250622.json',
+  'IkahoJinya_20250104.json',
+  'HachisukaIeamasa-20250117.json',
+  'SashimiLunch-20250119.json',
+  'Gunmachan-TakasakiStation-20250131.json',
+  'Carpherumet-20241015.json',
+  'TamadukuriSpace-20241012.json',
+  'NezumiOtokoStation-20241011.json',
+  'CoffeeFroat-20241010.json',
+  'ApplePieCreamFlapechino-20240930.json',
+  'NanachanDoll-TheBoyAndTheBeast-20240914.json',
+  'ObihiroMonument-20240903.json'
 ]
 
 const ARCHIVES_DATA_PATH = `${process.env.PUBLIC_URL || ''}/data/archives/`;

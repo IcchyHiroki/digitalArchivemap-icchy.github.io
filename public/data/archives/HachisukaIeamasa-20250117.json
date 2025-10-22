@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761162031399",
+  "name": {
+    "ja": "蜂須賀家政銅像",
+    "en": "Portrait of Hachisuka Iemasa"
+  },
+  "description": {
+    "ja": "蜂須賀正勝の嫡男である蜂須賀家政（１５５８～１６３８）の銅像。\n「関ヶ原の戦い」では、真田家と同様に家政は蜂須賀家を保つために「二股」をかけたことが興味深い。",
+    "en": "A bronze statue of Hachisuka Iemasa (1558–1638), the eldest son of Hachisuka Masakatsu.\nIt is interesting that during the Battle of Sekigahara, Iemasa, like the Sanada clan, played both sides to preserve the Hachisuka family."
+  },
+  "address": {
+    "ja": "〒770-0851 徳島県徳島市徳島町城内１",
+    "en": "1 Jōnai, Tokushima-chō, Tokushima City, Tokushima Prefecture 770-0851"
+  },
+  "coordinates": {
+    "latitude": 34.07390998543291,
+    "longitude": 134.55461919307712
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/de8de343-9c3b-4780-8056-dc74f0f34860?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで構成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-10-22"
+}
