@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761161524960",
+  "name": {
+    "ja": "伊香保関所",
+    "en": "Ikaho Checkpoint"
+  },
+  "description": {
+    "ja": "1631年（寛永8年）に三国街道の裏往還の要所として、江戸幕府の命によりに設けられました。",
+    "en": "In 1631 (the 8th year of the Kan'ei era), it was established by order of the Edo shogunate as a key point along the back route of the Mikuni Highway."
+  },
+  "address": {
+    "ja": "〒377-0102 群馬県渋川市伊香保町伊香保34",
+    "en": "34 Ikaho, Ikaho-machi, Shibukawa City, Gunma Prefecture 377-0102"
+  },
+  "coordinates": {
+    "latitude": 36.49854488368431,
+    "longitude": 138.9166367053986
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/4a522575-83b5-4b99-92c5-0565d7f77ddb?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで構成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-01-04"
+}

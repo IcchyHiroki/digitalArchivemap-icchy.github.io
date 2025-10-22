@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761167653366",
+  "name": {
+    "ja": "OBIHIROモニュメント",
+    "en": "Obihiro Monument"
+  },
+  "description": {
+    "ja": "ばんえい競馬場に併設された「とかちむら」にあるOBIHIROモニュメント。",
+    "en": "The OBIHIRO Monument located in Tokachi Village, adjacent to the Ban'ei Racecourse."
+  },
+  "address": {
+    "ja": "〒080-0023 北海道帯広市西１３条南８丁目１",
+    "en": "1-8 Nishi 13-jo Minami, Obihiro City, Hokkaido 080-0023"
+  },
+  "coordinates": {
+    "latitude": 42.92125017754172,
+    "longitude": 143.1838703155518
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/47dceed4-4f34-4416-969c-6af6b2d6ac2b?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2024-09-03"
+}

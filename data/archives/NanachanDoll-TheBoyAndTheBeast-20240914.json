@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761167355225",
+  "name": {
+    "ja": "ナナちゃん人形（バケモノの子）",
+    "en": "NanachanDoll(“The Boy and the Beast”)"
+  },
+  "description": {
+    "ja": "劇団四季ミュージカルの「バケモノの子」名古屋公演を記念し、期間限定コスチュームとなったナナちゃん人形。",
+    "en": "To commemorate the Nagoya performance of the Shiki Theatre Company musical “The Boy and the Beast”, a limited-time costume for the Nana-chan doll."
+  },
+  "address": {
+    "ja": "〒450-0002 愛知県名古屋市中村区１丁目２−５",
+    "en": "1-2-5 Nakamura Ward, Nagoya City, Aichi Prefecture 450-0002"
+  },
+  "coordinates": {
+    "latitude": 35.16859003657831,
+    "longitude": 136.8835544586182
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/4779bd14-b877-4171-906f-e448505256db?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-10-22"
+}

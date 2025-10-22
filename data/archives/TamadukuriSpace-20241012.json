@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761164174593",
+  "name": {
+    "ja": "復元古代家屋（出雲玉作史跡公園）",
+    "en": "Reconstructed Ancient House (Izumo Tamatsukuri Historical Park)"
+  },
+  "description": {
+    "ja": "記加羅志（きがらし）神社跡古墳、工房跡の原状保存施設、工房跡を示す台座、復元家屋などが整備保存された史跡公園",
+    "en": "Kigarashi Shrine Ruins Kofun, workshop site preservation facility, pedestal indicating workshop site, restored houses, and other preserved features within a historic park"
+  },
+  "address": {
+    "ja": "〒699-0201 島根県松江市玉湯町玉造８５−８",
+    "en": "85-8 Tamatsukuri, Tamayu-cho, Matsue City, Shimane Prefecture 699-0201"
+  },
+  "coordinates": {
+    "latitude": 35.4172788267266,
+    "longitude": 133.0125153064728
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/2f2b39e1-09a6-40fd-ba97-2e63c23653c9?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2024-10-12"
+}

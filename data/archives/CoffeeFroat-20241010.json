@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761166326322",
+  "name": {
+    "ja": "コーヒーフロート（澤井珈琲ラボショップ）",
+    "en": "CoffeeFroat(Sawai Coffee Lab Shop)"
+  },
+  "description": {
+    "ja": "コーヒーフロートのソフトクリームは、コーヒーソフトクリーム。\n東京都、鳥取県、島根県、台湾に店舗を持つ澤井珈琲の焙煎工場などに併設されたショップ。\n",
+    "en": "The soft serve ice cream in the coffee float is coffee soft serve.\nShops attached to roasting facilities and other locations of Sawai Coffee, which has stores in Tokyo, Tottori Prefecture, Shimane Prefecture, and Taiwan."
+  },
+  "address": {
+    "ja": "〒684-0046 鳥取県境港市竹内団地２７８−６",
+    "en": "278-6 Takeuchi Danchi Sakaiminato City, Tottori Prefecture 684-0046"
+  },
+  "coordinates": {
+    "latitude": 35.519965811483,
+    "longitude": 133.25440227985385
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/4926c096-67c6-46b4-9de8-873b05a50919?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-10-22"
+}

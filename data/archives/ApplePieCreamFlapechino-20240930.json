@@ -1,0 +1,31 @@
+{
+  "id": "archive-1761166971235",
+  "name": {
+    "ja": "アップルパイクリームフラペチーノ",
+    "en": "ApplePieCreamFlapechino"
+  },
+  "description": {
+    "ja": "2024年の９月ごろにアジア太平洋地区の13か国で展開されたハローキティのコラボドリンク",
+    "en": "A Hello Kitty collaboration drink launched in 13 countries across the Asia-Pacific region around September 2024"
+  },
+  "address": {
+    "ja": "168, ブキット・ビンタン通り, ブキット・ビンタン, 55100 クアラルンプール, クアラルンプール連邦直轄区, マレーシア",
+    "en": "168, Bukit Bintang Road, Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia"
+  },
+  "coordinates": {
+    "latitude": 3.14930009542416,
+    "longitude": 101.71272933483125
+  },
+  "dataType": "3D",
+  "dataLinks": [
+    {
+      "type": "3D Model",
+      "url": "https://lumalabs.ai/embed/478d5493-54f8-4904-9e88-dc64e91f2974?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false",
+      "description": {
+        "ja": "Luma 3Dで作成した3D Gaussian Splatting",
+        "en": "3D Gaussian Splatting created in Luma 3D"
+      }
+    }
+  ],
+  "lastUpdated": "2025-10-22"
+}
